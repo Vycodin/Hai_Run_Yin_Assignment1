@@ -1,0 +1,102 @@
+body{
+    background-color: #F2E9E1;
+    margin: 0;
+}
+p{
+    color:#505460;
+    font-size:14px;
+}
+h1{
+    font-family: 'IBM Plex Sans Thai Looped', sans-serif;
+    font-size: 20px;
+    color:#505460;
+    margin-top: 26px;
+}
+header{
+    display:flex;
+    flex-direction: row-reverse;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: #C4A7E7;
+}
+.index.nav{
+    width: 175px;
+    height: auto;
+    position:sticky;
+    display: flex;
+    top: 0;
+    width: inherit;
+}
+.topnav{
+    list-style:none;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+a{
+    color:#505460;
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+    padding: 16px 16px;
+}
+a:hover{
+    background-color:#232136;
+    color:#F2E9E1;
+}
+a:visited{
+    text-decoration: underline;
+}
+footer{
+    position:fixed;
+    left: 0;
+    bottom: 0px;
+    width: 100%;
+    text-align: center;
+}
+.new_note{
+    color: #505460;
+    border: none;
+    background-color: #F2E9E1;
+    text-align: center;
+    font-size: 32px;
+    margin: 12px;
+    padding: 8px 12px;
+    border-radius: 50%;
+}
+.new_note:hover{
+    background-color: #C4A7E7;
+    color: #F2E9E1;
+}
+.container-main{
+    width: 25%;
+    padding-left: 25%;
+    padding-top: 6%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.open_nav{
+    color: #505460;
+    border: none;
+    background-color: #F2E9E1;
+    font-size: 35px;
+}
+.open_nav:hover{
+    background-color: #505460;
+    color: #F2E9E1;
+}
+@media screen and (max-width:600px){
+    h1,p,a{
+        font-size: 12px;
+    }
+    .container-main{
+        display: flex;
+        justify-content: space-around;
+    }
+    .container-main h1{
+        margin: 30px 20px;
+        white-space: nowrap;
+    }
+}
