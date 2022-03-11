@@ -87,6 +87,76 @@ footer{
     background-color: #505460;
     color: #F2E9E1;
 }
+
+.area-note{
+    margin:auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.note_button_div{
+    width: 25%;
+    float: left;
+}
+
+.Note_written{
+    margin-left: 10%;
+}
+
+textarea{
+    background-color: #F2E9E1;
+    border: none;
+    outline: none;
+    color: #232136;
+    resize: none;
+    width: 500px;
+}
+
+.side_nav{
+    height: 100%;
+    width: 240px;
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    top: 0;
+    left: 0;
+    background-color: #C4A7E7;
+}
+.side_nav li{
+    color:#232136;
+    font-size: 18px;
+    padding: 5px;
+    padding-left: 15%;
+    text-decoration: none;
+    display: block;
+    list-style: none;
+}
+
+.side_nav h1{
+    padding-left: 25%;
+    font-size: 25px;
+    font-weight: bold;
+    color: #505460;
+}
+.side_nav .open-nav{
+    background-color: #C4A7E7;
+    margin-left: 70%;
+}
+#note_buttons{
+    float:right;
+}
+.save_delete{
+    color: #232136;
+    border: none;
+    background-color: #C4A7E7;
+}
+.save-delete:hover{
+    color:#F2E9E1;
+    background-color: #C4A7E7;
+    
+}
+
+
 @media screen and (max-width:600px){
     h1,p,a{
         font-size: 12px;
