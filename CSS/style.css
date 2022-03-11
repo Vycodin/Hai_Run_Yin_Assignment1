@@ -120,6 +120,7 @@ textarea{
     flex-direction: column;
     top: 0;
     left: 0;
+    margin-top: 50px;
     background-color: #C4A7E7;
 }
 .side_nav li{
@@ -138,7 +139,7 @@ textarea{
     font-weight: bold;
     color: #505460;
 }
-.side_nav .open-nav{
+.side_nav .open_nav{
     background-color: #C4A7E7;
     margin-left: 70%;
 }
@@ -150,9 +151,9 @@ textarea{
     border: none;
     background-color: #C4A7E7;
 }
-.save-delete:hover{
+.save_delete:hover{
     color:#F2E9E1;
-    background-color: #C4A7E7;
+    background-color:#232136;
     
 }
 
@@ -168,5 +169,35 @@ textarea{
     .container-main h1{
         margin: 30px 20px;
         white-space: nowrap;
+    }
+    .index.nav{
+        width: 50%;
+    }
+    .note_button{
+        font-size: 14px;
+    }
+    .side_nav{
+        width: 20%;
+        margin-top: 45px;
+    }
+    .side_nav h1{
+        padding-left: 15px;
+        font-size: 12px;
+    }
+    ul{
+        padding-left: 0;
+        width: 100px;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    }
+    ::placeholder{
+        font-size: 12px;
+    }
+    .side_nav .open_nav{
+        font-size: 22px;
+    }
+    textarea{
+        width: 200px;
     }
 }
