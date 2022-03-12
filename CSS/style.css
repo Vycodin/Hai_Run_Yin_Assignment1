@@ -1,8 +1,9 @@
 body{
     background-color: #F2E9E1;
     margin: 0;
+    height: 1005;
 }
-p{
+p, li{
     color:#505460;
     font-size:14px;
 }
@@ -22,23 +23,17 @@ header{
 .index.nav{
     width: 175px;
     height: auto;
-    position:sticky;
-    display: flex;
-    top: 0;
-    width: inherit;
 }
 .topnav{
     list-style:none;
     display:flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
 }
 a{
-    color:#505460;
+    color:#232136;
     text-decoration: none;
     font-size: 18px;
-    text-align: center;
     padding: 16px 16px;
 }
 a:hover{
@@ -50,8 +45,7 @@ a:visited{
 }
 footer{
     position:fixed;
-    left: 0;
-    bottom: 0px;
+    bottom: 0;
     width: 100%;
     text-align: center;
 }
@@ -61,8 +55,8 @@ footer{
     background-color: #F2E9E1;
     text-align: center;
     font-size: 32px;
-    margin: 12px;
-    padding: 8px 12px;
+    margin: 4px 2px;
+    padding: 8px;
     border-radius: 50%;
 }
 .new_note:hover{
@@ -70,12 +64,10 @@ footer{
     color: #F2E9E1;
 }
 .container-main{
-    width: 25%;
-    padding-left: 25%;
-    padding-top: 6%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
+    margin: auto;
+    width: 20%;
+    padding-top: 50px;
+    padding-right: 40%;
 }
 .open_nav{
     color: #505460;
@@ -99,7 +91,7 @@ footer{
     float: left;
 }
 
-.Note_written{
+.title_button_div{
     margin-left: 10%;
 }
 
@@ -164,7 +156,8 @@ textarea{
     }
     .container-main{
         display: flex;
-        justify-content: space-around;
+        justify-content: center;
+        padding-left: 150px;
     }
     .container-main h1{
         margin: 30px 20px;
@@ -180,9 +173,14 @@ textarea{
         width: 20%;
         margin-top: 45px;
     }
-    .side_nav h1{
-        padding-left: 15px;
+    .side_nav li{
+        padding-left: 5px;
         font-size: 12px;
+        list-style: none;
+    }
+    .side_nav h1{
+        padding-left: 10%;
+        font-size: 14px;
     }
     ul{
         padding-left: 0;
@@ -196,7 +194,9 @@ textarea{
     }
     .side_nav .open_nav{
         font-size: 22px;
+        margin-left: 0px;
     }
+
     textarea{
         width: 200px;
     }
